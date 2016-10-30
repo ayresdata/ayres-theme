@@ -40,13 +40,13 @@
             {{ if .Site.Params.contact.twitter }}
                 <div class="
                 {{ if .Site.Params.contact.email }}
-                    col-lg-4
+                    col-lg-8
                 {{ else }}
-                    col-lg-8 col-lg-offset-2
+                    col-lg-12 col-lg-offset-2
                 {{ end }}
                  text-center">
                     <i class="fa fa-twitter fa-3x wow bounceIn" data-wow-delay=".1s"></i>
-                    <p><a href="mailto:{{ .Site.Params.contact.email }}">{{ .Site.Params.contact.email }}</a></p>
+                    <p><a href="mailto:{{ .Site.Params.contact.email }}">{{ .Site.Params.contact.twitter }}</a></p>
                 </div>
             {{ end }}
         </div>
